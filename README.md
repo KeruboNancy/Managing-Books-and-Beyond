@@ -18,7 +18,6 @@ The database consists of the following tables:
 ## Setup Instructions
 1. **Database Creation**: Use the SQL scripts located in the `sql/tables` directory to create the necessary tables in your database.
 2. **Seeding Data**: After creating the tables, run the SQL script in `sql/seed/seed-data.sql` to insert initial data for testing and development.
-3. **Schema Diagram**: Refer to `schema-diagram.png` for a visual representation of the database schema and relationships.
 
 ## Additional Information
 Ensure that you have the necessary database management system installed and configured to execute the SQL scripts. This project is designed to facilitate the management of a bookstore's operations efficiently.
