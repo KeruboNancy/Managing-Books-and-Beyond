@@ -21,8 +21,12 @@ The database consists of the following tables:
 - **Relationships**: Defines many-to-many relationships between books and authors, as well as other necessary relationships.
 
 ## Setup Instructions
-1. **Database Creation**: Use the SQL scripts located in the `sql/tables` directory to create the necessary tables in your database.
-2. **Seeding Data**: After creating the tables, run the SQL script in `sql/seed/seed-data.sql` to insert initial data for testing and development.
-
+<pre> 
+  1. Clone the repository: ```bash git clone https://github.com/KeruboNancy/Managing-Books-and-Beyond.git cd Managing-Books-and-Beyond ``` 
+  2. Install PostgreSQL. 
+  3. Create the database: ```bash psql -U your_username CREATE DATABASE bookstore; \c bookstore ``` 
+  4. Run the schema: ```bash psql -U your_username -d bookstore -f schema.sql ``` 
+  5. *(Optional)* Add sample data: ```bash psql -U your_username -d bookstore -f sample_data.sql ``` 
+</pre>
 ## Additional Information
 Ensure that you have the necessary database management system installed and configured to execute the SQL scripts. This project is designed to facilitate the management of a bookstore's operations efficiently.
